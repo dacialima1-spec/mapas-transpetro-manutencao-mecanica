@@ -41,7 +41,7 @@ section{ position:relative; }
 .eyebrow.center::after{ content:""; width:22px; height:2px; background:#D9A94A; border-radius:2px; }
 .mech{ display:inline-flex; align-items:center; gap:.45rem; background:#FAF4E4; color:#9C7322; font-weight:700; border-radius:999px; padding:7px 15px; font-size:.82rem; }
 .compare-wrap{ position:relative; max-width:420px; margin:0 auto; }
-.compare-inner{ --pos:50%; position:relative; width:100%; aspect-ratio:3/4; border-radius:20px; overflow:hidden; box-shadow:0 18px 44px -20px rgba(16,34,52,.35); user-select:none; touch-action:none; cursor:ew-resize; background:#EFEADB; }
+.compare-inner{ --pos:50%; position:relative; width:100%; aspect-ratio:2/3; border-radius:20px; overflow:hidden; box-shadow:0 18px 44px -20px rgba(16,34,52,.35); user-select:none; touch-action:none; cursor:ew-resize; background:#EFEADB; }
 .compare-img{ position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block; -webkit-user-drag:none; }
 .compare-before{ clip-path:inset(0 calc(100% - var(--pos)) 0 0); }
 .compare-handle{ position:absolute; top:0; bottom:0; left:var(--pos); width:0; pointer-events:none; }
@@ -178,7 +178,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible{ outline:2px solid 
         <div class="gold-rule"></div>
       </div>
       <div class="grid lg:grid-cols-2 gap-10 items-center">
-        <img src="prev-mapa01.png" class="mapimg reveal" loading="lazy" alt="Exemplo de mapa de revisão" onerror="this.outerHTML='&lt;div class=\'ph rounded-xl\' style=\'aspect-ratio:3/4\'&gt;&lt;span class=\'lab\'&gt;Mapa&lt;/span&gt;&lt;/div&gt;'">
+        <img src="prev-mapa01.png" class="mapimg reveal" loading="lazy" alt="Exemplo de mapa de revisão" onerror="this.outerHTML='&lt;div class=\'ph rounded-xl\' style=\'aspect-ratio:2/3\'&gt;&lt;span class=\'lab\'&gt;Mapa&lt;/span&gt;&lt;/div&gt;'">
         <div class="reveal" data-d="1">
           <p class="font-display font-bold text-ink-800 text-xl">Em poucos dias você vai notar:</p>
           <ul class="mt-3 space-y-2.5">
@@ -251,11 +251,11 @@ a:focus-visible, button:focus-visible, summary:focus-visible{ outline:2px solid 
       <div class="relative reveal">
         <button class="carbtn prev" onclick="slide(-1,'car2')" aria-label="Anterior">‹</button>
         <div class="carousel" id="car2">
-          <div class="slide"><img src="prev-mapa01.png" class="mapimg" loading="lazy" alt="Mapa" onerror="this.outerHTML='&lt;div class=\'ph\' style=\'aspect-ratio:3/4;border-radius:10px\'&gt;&lt;span class=\'lab\'&gt;Mapa&lt;/span&gt;&lt;/div&gt;'"></div>
-          <div class="slide"><img src="prev-mapa02.png" class="mapimg" loading="lazy" alt="Mapa" onerror="this.outerHTML='&lt;div class=\'ph\' style=\'aspect-ratio:3/4;border-radius:10px\'&gt;&lt;span class=\'lab\'&gt;Mapa&lt;/span&gt;&lt;/div&gt;'"></div>
-          <div class="slide"><img src="prev-mapa03.png" class="mapimg" loading="lazy" alt="Mapa" onerror="this.outerHTML='&lt;div class=\'ph\' style=\'aspect-ratio:3/4;border-radius:10px\'&gt;&lt;span class=\'lab\'&gt;Mapa&lt;/span&gt;&lt;/div&gt;'"></div>
-          <div class="slide"><img src="prev-mapa04.png" class="mapimg" loading="lazy" alt="Mapa" onerror="this.outerHTML='&lt;div class=\'ph\' style=\'aspect-ratio:3/4;border-radius:10px\'&gt;&lt;span class=\'lab\'&gt;Mapa&lt;/span&gt;&lt;/div&gt;'"></div>
-          <div class="slide"><img src="prev-checklist.png" class="mapimg" loading="lazy" alt="Checklist do edital" onerror="this.outerHTML='&lt;div class=\'ph\' style=\'aspect-ratio:3/4;border-radius:10px\'&gt;&lt;span class=\'lab\'&gt;Mapa&lt;/span&gt;&lt;/div&gt;'"></div>
+          <div class="slide"><img src="prev-mapa01.png" class="mapimg" loading="lazy" alt="Mapa" onerror="this.outerHTML='&lt;div class=\'ph\' style=\'aspect-ratio:2/3;border-radius:10px\'&gt;&lt;span class=\'lab\'&gt;Mapa&lt;/span&gt;&lt;/div&gt;'"></div>
+          <div class="slide"><img src="prev-mapa02.png" class="mapimg" loading="lazy" alt="Mapa" onerror="this.outerHTML='&lt;div class=\'ph\' style=\'aspect-ratio:2/3;border-radius:10px\'&gt;&lt;span class=\'lab\'&gt;Mapa&lt;/span&gt;&lt;/div&gt;'"></div>
+          <div class="slide"><img src="prev-mapa03.png" class="mapimg" loading="lazy" alt="Mapa" onerror="this.outerHTML='&lt;div class=\'ph\' style=\'aspect-ratio:2/3;border-radius:10px\'&gt;&lt;span class=\'lab\'&gt;Mapa&lt;/span&gt;&lt;/div&gt;'"></div>
+          <div class="slide"><img src="prev-mapa04.png" class="mapimg" loading="lazy" alt="Mapa" onerror="this.outerHTML='&lt;div class=\'ph\' style=\'aspect-ratio:2/3;border-radius:10px\'&gt;&lt;span class=\'lab\'&gt;Mapa&lt;/span&gt;&lt;/div&gt;'"></div>
+          <div class="slide"><img src="prev-checklist.png" class="mapimg" loading="lazy" alt="Checklist do edital" onerror="this.outerHTML='&lt;div class=\'ph\' style=\'aspect-ratio:2/3;border-radius:10px\'&gt;&lt;span class=\'lab\'&gt;Mapa&lt;/span&gt;&lt;/div&gt;'"></div>
         </div>
         <button class="carbtn next" onclick="slide(1,'car2')" aria-label="Próximo">›</button>
       </div>
