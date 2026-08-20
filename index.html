@@ -23,22 +23,10 @@ src="https://www.facebook.com/tr?id=4555996237989507&ev=PageView&noscript=1"
 <title>80 Mapas Reta Final Transpetro Manutenção Mecânica | Revise o edital inteiro em mapas prontos</title>
 <meta name="description" content="80 mapas visuais que cobrem 100% do Anexo IV da ênfase Manutenção Mecânica do edital Transpetro 2026.3, a 2ª maior do edital. Prontos pra imprimir, direto ao que cai na prova de 29/11.">
 <meta name="theme-color" content="#102234">
-<link rel="preload" as="image" href="mockup-capa.webp" fetchpriority="high">
-<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preload" as="image" href="mockup-capa.webp" imagesrcset="mockup-capa-480.webp 480w, mockup-capa.webp 1250w" imagesizes="(max-width:639px) 384px, (max-width:1023px) 576px, 768px" fetchpriority="high">
+<link rel="stylesheet" href="styles.css">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<script>
-tailwind.config = { theme: { extend: {
-  fontFamily: { sans:['"Plus Jakarta Sans"','system-ui','sans-serif'], display:['Sora','system-ui','sans-serif'] },
-  colors: {
-    gold:{50:'#FAF4E4',100:'#F1E6C8',300:'#E8C477',400:'#D9A94A',500:'#B98E3C',600:'#9C7322',700:'#7E5E18'},
-    teal:{50:'#EAF4F3',100:'#CFE6E4',400:'#2E8F89',500:'#1B7A73',600:'#0F6E6A',700:'#0B5652'},
-    ink:{50:'#F6F7FA',100:'#EBEEF3',200:'#D5DAE3',400:'#76819A',500:'#54607A',600:'#46526B',700:'#2C3A50',800:'#16314A',900:'#102234'},
-    navy:{600:'#234E72',700:'#1C3D5A',800:'#15304A',900:'#102234'},
-  },
-  boxShadow:{ soft:'0 1px 2px rgba(16,34,52,.04), 0 8px 24px -6px rgba(16,34,52,.08)', card:'0 1px 2px rgba(16,34,52,.04), 0 14px 34px -16px rgba(16,34,52,.18)', lift:'0 20px 60px -20px rgba(16,34,52,.42)' },
-} } }
-</script>
 <style>
 html{ font-size:17px; }
 html,body{ background:#FAF8F1; color:#102234; overflow-x:hidden; max-width:100%; }
@@ -115,7 +103,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible{ outline:2px solid 
     <div class="relative max-w-4xl mx-auto px-4 sm:px-6 text-center">
       <span class="eyebrow center whitespace-nowrap !text-[0.6rem] sm:!text-[0.72rem] !tracking-[0.1em] sm:!tracking-[0.16em]">Ênfase Manutenção Mecânica · Edital 2026.3</span>
       <h1 class="text-[1.7rem] sm:text-[2.3rem] lg:text-[2.7rem] leading-[1.1] text-ink-800 mt-3 balance max-w-3xl mx-auto">Domine o Edital da TRANSPETRO, revise os conhecimentos gerais e a sua área de competência e garanta a aprovação que paga <span class="accent">R$ 6.539,54 por mês</span></h1>
-      <div class="reveal min-w-0 max-w-sm sm:max-w-xl lg:max-w-3xl mx-auto mt-6"><img src="mockup-capa.webp" width="1250" height="1250" alt="80 Mapas Reta Final Transpetro Manutenção Mecânica" class="w-full h-auto" decoding="async" fetchpriority="high" onerror="this.outerHTML='&lt;div class=\'ph rounded-2xl\' style=\'aspect-ratio:16/9\'&gt;&lt;span class=\'lab\'&gt;Mockup dos 80 mapas&lt;/span&gt;&lt;/div&gt;'"></div>
+      <div class="reveal min-w-0 max-w-sm sm:max-w-xl lg:max-w-3xl mx-auto mt-6"><img src="mockup-capa.webp" srcset="mockup-capa-480.webp 480w, mockup-capa.webp 1250w" sizes="(max-width:639px) 384px, (max-width:1023px) 576px, 768px" width="1250" height="1250" alt="80 Mapas Reta Final Transpetro Manutenção Mecânica" class="w-full h-auto" decoding="async" fetchpriority="high" onerror="this.outerHTML='&lt;div class=\'ph rounded-2xl\' style=\'aspect-ratio:16/9\'&gt;&lt;span class=\'lab\'&gt;Mockup dos 80 mapas&lt;/span&gt;&lt;/div&gt;'"></div>
       <p class="mt-6 text-ink-600 text-[15px] leading-snug sm:text-lg sm:leading-relaxed max-w-2xl mx-auto balance">80 mapas de revisão organizados item por item no Anexo IV, prontos pra imprimir, com o conteúdo exato da ênfase Manutenção Mecânica, a 2ª maior do edital.</p>
       <ul class="hero-bullets mt-6 flex flex-col items-start sm:flex-row sm:flex-wrap sm:items-center sm:justify-center gap-2 sm:gap-3 w-fit mx-auto text-left">
         <li class="chk"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#0F6E6A"/><path d="M8 12.5l2.5 2.5 5-5.5" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="text-ink-700">Sem precisar garimpar o edital sozinho</span></li>
@@ -438,9 +426,9 @@ a:focus-visible, button:focus-visible, summary:focus-visible{ outline:2px solid 
     const obs=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('active');obs.unobserve(e.target);}})},{threshold:.1,rootMargin:'0px 0px -40px 0px'});
     document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
     document.querySelectorAll('.compare-inner').forEach(function(inner){
-      var dragging=false;
-      function setPos(clientX){ var r=inner.getBoundingClientRect(); var pct=Math.min(100,Math.max(0,((clientX-r.left)/r.width)*100)); inner.style.setProperty('--pos',pct+'%'); }
-      inner.addEventListener('pointerdown',function(e){ dragging=true; setPos(e.clientX); try{inner.setPointerCapture(e.pointerId);}catch(_){} });
+      var dragging=false, rect=null;
+      function setPos(clientX){ if(!rect)return; var pct=Math.min(100,Math.max(0,((clientX-rect.left)/rect.width)*100)); inner.style.setProperty('--pos',pct+'%'); }
+      inner.addEventListener('pointerdown',function(e){ dragging=true; rect=inner.getBoundingClientRect(); setPos(e.clientX); try{inner.setPointerCapture(e.pointerId);}catch(_){} });
       inner.addEventListener('pointermove',function(e){ if(dragging) setPos(e.clientX); });
       inner.addEventListener('pointerup',function(){ dragging=false; });
       inner.addEventListener('pointercancel',function(){ dragging=false; });
